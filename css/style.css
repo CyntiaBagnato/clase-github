@@ -4,7 +4,20 @@
     box-sizing: border-box;
 }
 
-.h1{
+h1{
     color:aquamarine;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifgi;
+}
+
+p{
+    max-width: 350px;
+    margin: 15px;
+}
+
+.div{
+    background-color: blueviolet;
+}
+
+@media (max-widt: 750px){
+    .div { background-color: aqua;}
 }
