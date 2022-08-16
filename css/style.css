@@ -17,7 +17,8 @@ p{
 .div{
     background-color: blueviolet;
 }
-
-@media (max-widt: 750px){
-    .div { background-color: aqua;}
+@media (max-width: 650px){
+    .div{
+        background-color: aquamarine;
+    }
 }
