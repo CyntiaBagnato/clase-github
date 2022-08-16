@@ -17,8 +17,14 @@ p{
 .div{
     background-color: blueviolet;
 }
+
+.flex-index{
+    display: flex;
+    justify-content: space-between
+}
 @media (max-width: 650px){
     .div{
         background-color: aquamarine;
     }
+
 }
