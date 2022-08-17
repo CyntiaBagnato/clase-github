@@ -29,10 +29,11 @@ p{
     justify-content: center;
     color: #692c97;
     background-image: linear-gradient(rgb(255, 251, 0), red);
+    font-family: cursive;
 }
 
 h1:hover{
-    color: rgb(52, 167, 221);
+    color: #34a7dd;
     
 }
 
