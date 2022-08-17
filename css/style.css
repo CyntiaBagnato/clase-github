@@ -5,7 +5,7 @@
 }
 
 h1{
-    color:aquamarine;
+    color:#ff7faa;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifgi;
 }
 
@@ -15,13 +15,27 @@ p{
 }
 
 .div{
-    background-color: blueviolet;
+    background-color: #8a2be2;
 }
 
 .flex-index{
     display: flex;
-    justify-content: space-between
+    justify-content: space-around;
 }
+
+.div:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #692c97;
+    background-image: linear-gradient(rgb(255, 251, 0), red);
+}
+
+h1:hover{
+    color: rgb(52, 167, 221);
+    
+}
+
 @media (max-width: 650px){
     .div{
         background-color: aquamarine;
